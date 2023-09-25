@@ -23,10 +23,18 @@ void MainWindow::AddTooltips(){
     QList<QObject*> goods = ui->goods->children();
     std::sort(goods.begin(), goods.end(), NameLess);
     int i = 0;
-    qDebug() << goods;
     foreach(auto good, goods){
         QWidget *currentGood = dynamic_cast<QWidget*>(good);
-        currentGood->setToolTip(data.mas[i++].name);
+        currentGood->setToolTip(data.goodsNames[i++].name);
+    }
+    QList<QObject*> paymentObjects = ui->payment->children();
+    std::sort(paymentObjects.begin(), paymentObjects.end(), NameLess);
+    i = 0;
+    std::sort(paymentObjects.begin(), paymentObjects.end(), NameLess);
+    qDebug() << paymentObjects;
+    foreach(auto paymentObject, paymentObjects){
+        QWidget *currentObject = dynamic_cast<QWidget*>(paymentObject);
+        currentObject->setToolTip(data.paymentTooltips[i++]);
     }
 }
 
