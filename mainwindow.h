@@ -19,5 +19,6 @@ public:
 private:
     Ui::MainWindow *ui;
     void AddTooltips();
+    void AddImgs();
 };
 #endif // MAINWINDOW_H

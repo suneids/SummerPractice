@@ -3,10 +3,11 @@
 #include <iostream>
 #include <vector>
 #include <locale>
+#include <QString>
 using namespace std;
 struct Item {
     int id;
-    string name;
+    QString name;
     int price;
 };
 
@@ -26,6 +27,20 @@ public:
          {41,"Шоколадный батончик",70},
          {42,"Ролтон",300},
          {43,"Французские вафли",250}
+    };
+    const QString imgPaths[12] = {
+        ":/img/img/11.png",
+        ":/img/img/12.png",
+        ":/img/img/13.png",
+        ":/img/img/21.png",
+        ":/img/img/22.png",
+        ":/img/img/23.png",
+        ":/img/img/31.png",
+        ":/img/img/32.png",
+        ":/img/img/33.png",
+        ":/img/img/41.png",
+        ":/img/img/42.png",
+        ":/img/img/43.png",
     };
 };
 

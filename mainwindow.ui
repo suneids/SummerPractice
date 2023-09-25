@@ -96,161 +96,479 @@
     <property name="autoFillBackground">
      <bool>true</bool>
     </property>
-    <widget class="QLabel" name="item11">
+    <widget class="QWidget" name="widget11" native="true">
      <property name="geometry">
       <rect>
-       <x>70</x>
-       <y>120</y>
-       <width>16</width>
-       <height>16</height>
+       <x>50</x>
+       <y>40</y>
+       <width>71</width>
+       <height>111</height>
       </rect>
      </property>
-     <property name="text">
-      <string>11</string>
-     </property>
+     <widget class="QLabel" name="item11">
+      <property name="geometry">
+       <rect>
+        <x>30</x>
+        <y>20</y>
+        <width>16</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>11</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="image11">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>40</y>
+        <width>71</width>
+        <height>71</height>
+       </rect>
+      </property>
+      <property name="autoFillBackground">
+       <bool>true</bool>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="pixmap">
+       <pixmap>img/11.png</pixmap>
+      </property>
+     </widget>
     </widget>
-    <widget class="QLabel" name="item12">
+    <widget class="QWidget" name="widget12" native="true">
      <property name="geometry">
       <rect>
-       <x>150</x>
-       <y>120</y>
-       <width>16</width>
-       <height>16</height>
+       <x>130</x>
+       <y>40</y>
+       <width>71</width>
+       <height>111</height>
       </rect>
      </property>
-     <property name="text">
-      <string>12</string>
-     </property>
+     <widget class="QLabel" name="item12">
+      <property name="geometry">
+       <rect>
+        <x>30</x>
+        <y>20</y>
+        <width>16</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>12</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="image12">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>40</y>
+        <width>71</width>
+        <height>71</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="pixmap">
+       <pixmap>img/12.png</pixmap>
+      </property>
+      <property name="scaledContents">
+       <bool>true</bool>
+      </property>
+     </widget>
     </widget>
-    <widget class="QLabel" name="item13">
+    <widget class="QWidget" name="widget13" native="true">
      <property name="geometry">
       <rect>
-       <x>230</x>
-       <y>120</y>
-       <width>16</width>
-       <height>16</height>
+       <x>210</x>
+       <y>40</y>
+       <width>71</width>
+       <height>111</height>
       </rect>
      </property>
-     <property name="text">
-      <string>13</string>
-     </property>
+     <widget class="QLabel" name="item13">
+      <property name="geometry">
+       <rect>
+        <x>30</x>
+        <y>20</y>
+        <width>16</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>13</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="image13">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>40</y>
+        <width>71</width>
+        <height>71</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="pixmap">
+       <pixmap>img/13.png</pixmap>
+      </property>
+     </widget>
     </widget>
-    <widget class="QLabel" name="item22">
+    <widget class="QWidget" name="widget21" native="true">
      <property name="geometry">
       <rect>
-       <x>150</x>
-       <y>230</y>
-       <width>16</width>
-       <height>16</height>
+       <x>50</x>
+       <y>170</y>
+       <width>71</width>
+       <height>111</height>
       </rect>
      </property>
-     <property name="text">
-      <string>22</string>
-     </property>
+     <widget class="QLabel" name="item21">
+      <property name="geometry">
+       <rect>
+        <x>30</x>
+        <y>20</y>
+        <width>16</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>21</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="image21">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>40</y>
+        <width>71</width>
+        <height>71</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="pixmap">
+       <pixmap>img/21.png</pixmap>
+      </property>
+     </widget>
     </widget>
-    <widget class="QLabel" name="item21">
+    <widget class="QWidget" name="widget22" native="true">
      <property name="geometry">
       <rect>
-       <x>70</x>
-       <y>230</y>
-       <width>16</width>
-       <height>16</height>
+       <x>130</x>
+       <y>170</y>
+       <width>71</width>
+       <height>111</height>
       </rect>
      </property>
-     <property name="text">
-      <string>21</string>
-     </property>
+     <widget class="QLabel" name="item22">
+      <property name="geometry">
+       <rect>
+        <x>30</x>
+        <y>20</y>
+        <width>16</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>22</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="image22">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>40</y>
+        <width>71</width>
+        <height>71</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="pixmap">
+       <pixmap>img/22.png</pixmap>
+      </property>
+     </widget>
     </widget>
-    <widget class="QLabel" name="item23">
+    <widget class="QWidget" name="widget23" native="true">
      <property name="geometry">
       <rect>
-       <x>230</x>
-       <y>230</y>
-       <width>16</width>
-       <height>16</height>
+       <x>210</x>
+       <y>170</y>
+       <width>71</width>
+       <height>111</height>
       </rect>
      </property>
-     <property name="text">
-      <string>23</string>
-     </property>
+     <widget class="QLabel" name="item23">
+      <property name="geometry">
+       <rect>
+        <x>30</x>
+        <y>20</y>
+        <width>16</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>23</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="image23">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>40</y>
+        <width>71</width>
+        <height>71</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="pixmap">
+       <pixmap>img/23.png</pixmap>
+      </property>
+     </widget>
     </widget>
-    <widget class="QLabel" name="item31">
+    <widget class="QWidget" name="widget33" native="true">
      <property name="geometry">
       <rect>
-       <x>70</x>
-       <y>340</y>
-       <width>16</width>
-       <height>16</height>
+       <x>210</x>
+       <y>300</y>
+       <width>71</width>
+       <height>111</height>
       </rect>
      </property>
-     <property name="text">
-      <string>31</string>
-     </property>
+     <widget class="QLabel" name="item33">
+      <property name="geometry">
+       <rect>
+        <x>30</x>
+        <y>20</y>
+        <width>16</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>33</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="image33">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>40</y>
+        <width>71</width>
+        <height>71</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="pixmap">
+       <pixmap>img/33.png</pixmap>
+      </property>
+     </widget>
     </widget>
-    <widget class="QLabel" name="item33">
+    <widget class="QWidget" name="widget31" native="true">
      <property name="geometry">
       <rect>
-       <x>230</x>
-       <y>340</y>
-       <width>16</width>
-       <height>16</height>
+       <x>50</x>
+       <y>300</y>
+       <width>71</width>
+       <height>111</height>
       </rect>
      </property>
-     <property name="text">
-      <string>33</string>
-     </property>
+     <widget class="QLabel" name="item31">
+      <property name="geometry">
+       <rect>
+        <x>30</x>
+        <y>20</y>
+        <width>16</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>31</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="image31">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>40</y>
+        <width>71</width>
+        <height>71</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="pixmap">
+       <pixmap>img/31.png</pixmap>
+      </property>
+     </widget>
     </widget>
-    <widget class="QLabel" name="item32">
+    <widget class="QWidget" name="widget32" native="true">
      <property name="geometry">
       <rect>
-       <x>150</x>
-       <y>340</y>
-       <width>16</width>
-       <height>16</height>
+       <x>130</x>
+       <y>300</y>
+       <width>71</width>
+       <height>111</height>
       </rect>
      </property>
-     <property name="text">
-      <string>32</string>
-     </property>
+     <widget class="QLabel" name="item32">
+      <property name="geometry">
+       <rect>
+        <x>30</x>
+        <y>20</y>
+        <width>16</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>32</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="image32">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>40</y>
+        <width>71</width>
+        <height>71</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="pixmap">
+       <pixmap>img/32.png</pixmap>
+      </property>
+     </widget>
     </widget>
-    <widget class="QLabel" name="item43">
+    <widget class="QWidget" name="widget41" native="true">
      <property name="geometry">
       <rect>
-       <x>230</x>
-       <y>450</y>
-       <width>16</width>
-       <height>16</height>
+       <x>50</x>
+       <y>440</y>
+       <width>71</width>
+       <height>111</height>
       </rect>
      </property>
-     <property name="text">
-      <string>43</string>
-     </property>
+     <widget class="QLabel" name="item41">
+      <property name="geometry">
+       <rect>
+        <x>30</x>
+        <y>20</y>
+        <width>16</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>41</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="image41">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>40</y>
+        <width>71</width>
+        <height>71</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="pixmap">
+       <pixmap>img/41.png</pixmap>
+      </property>
+     </widget>
     </widget>
-    <widget class="QLabel" name="item42">
+    <widget class="QWidget" name="widget42" native="true">
      <property name="geometry">
       <rect>
-       <x>150</x>
-       <y>450</y>
-       <width>16</width>
-       <height>16</height>
+       <x>130</x>
+       <y>440</y>
+       <width>71</width>
+       <height>111</height>
       </rect>
      </property>
-     <property name="text">
-      <string>42</string>
-     </property>
+     <widget class="QLabel" name="item42">
+      <property name="geometry">
+       <rect>
+        <x>30</x>
+        <y>20</y>
+        <width>16</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>42</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="image42">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>40</y>
+        <width>71</width>
+        <height>71</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="pixmap">
+       <pixmap>img/42.png</pixmap>
+      </property>
+     </widget>
     </widget>
-    <widget class="QLabel" name="item41">
+    <widget class="QWidget" name="widget43" native="true">
      <property name="geometry">
       <rect>
-       <x>70</x>
-       <y>450</y>
-       <width>16</width>
-       <height>16</height>
+       <x>210</x>
+       <y>440</y>
+       <width>71</width>
+       <height>111</height>
       </rect>
      </property>
-     <property name="text">
-      <string>41</string>
-     </property>
+     <widget class="QLabel" name="item43">
+      <property name="geometry">
+       <rect>
+        <x>30</x>
+        <y>20</y>
+        <width>16</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>43</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="image43">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>40</y>
+        <width>71</width>
+        <height>71</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="pixmap">
+       <pixmap>img/43.png</pixmap>
+      </property>
+     </widget>
     </widget>
    </widget>
    <widget class="QWidget" name="payment" native="true">
