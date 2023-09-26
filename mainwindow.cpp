@@ -129,27 +129,23 @@ void MainWindow::ShowCoinsMenu(QPoint point){
 }
 
 void MainWindow::AddCoin1(){
-    int balance = (ui->yourMoney->text()).toInt();
-    balance+=1;
-    ui->yourMoney->setText(QString::number(balance));
+    data.balance+=1;
+    ui->yourMoney->setText(QString::number(data.balance));
 }
 
 void MainWindow::AddCoin2(){
-    int balance = (ui->yourMoney->text()).toInt();
-    balance+=2;
-    ui->yourMoney->setText(QString::number(balance));
+    data.balance+=2;
+    ui->yourMoney->setText(QString::number(data.balance));
 }
 
 void MainWindow::AddCoin5(){
-    int balance = (ui->yourMoney->text()).toInt();
-    balance+=5;
-    ui->yourMoney->setText(QString::number(balance));
+    data.balance+=5;
+    ui->yourMoney->setText(QString::number(data.balance));
 }
 
 void MainWindow::AddCoin10(){
-    int balance = (ui->yourMoney->text()).toInt();
-    balance+=10;
-    ui->yourMoney->setText(QString::number(balance));
+    data.balance+=10;
+    ui->yourMoney->setText(QString::number(data.balance));
 }
 
 void MainWindow::ShowPapersMenuPrepare(){
@@ -167,15 +163,13 @@ void MainWindow::ShowPapersMenu(QPoint point){
 }
 
 void MainWindow::AddPaper50(){
-    int balance = (ui->yourMoney->text()).toInt();
-    balance+=50;
-    ui->yourMoney->setText(QString::number(balance));
+    data.balance+=50;
+    ui->yourMoney->setText(QString::number(data.balance));
 }
 
 void MainWindow::AddPaper100(){
-    int balance = (ui->yourMoney->text()).toInt();
-    balance+=100;
-    ui->yourMoney->setText(QString::number(balance));
+    data.balance+=100;
+    ui->yourMoney->setText(QString::number(data.balance));
 }
 
 void MainWindow::AddDiscout(){
@@ -188,30 +182,28 @@ void MainWindow::AddDiscout(){
 }
 
 void MainWindow::GetChange(){
-    ui->yourMoney->setText("");
     ui->toBePaid->setText("");
     ui->goodNumber->setText("");
     data.isDiscounded = false;
+    data.balance = 0;
+    ui->yourMoney->setText("");
 }
 
 void MainWindow::SelectGood(){
     int toPay = (ui->toBePaid->text()).toInt();
-    int balance = (ui->yourMoney->text()).toInt();
-    if(balance < toPay){
-        data.price = (ui->yourMoney->text()).toInt();
+    if(data.balance < toPay){
         ui->yourMoney->setText("Недостаточно средств");
         QTimer::singleShot(2000, this, SLOT(NotEnoughMoneyOrTakeYourGood()));
     }
     else{
-        if(ui->purchasedGood->text().length() != 0){
-            balance -= toPay;
-            ui->yourMoney->setText(QString::number(balance));
+        if(ui->purchasedGood->text()==""){
+            data.balance -= toPay;
+            ui->yourMoney->setText(QString::number(data.balance));
             QString goodName = ui->goodNumber->text();
             goodName.remove(0, 4);
             ui->purchasedGood->setText(goodName);
         }
         else{
-            data.price = (ui->yourMoney->text()).toInt();
             ui->yourMoney->setText("Дла начала заберите товар");
             QTimer::singleShot(2000, this, SLOT(NotEnoughMoneyOrTakeYourGood()));
         }
@@ -219,7 +211,7 @@ void MainWindow::SelectGood(){
 }
 
 void MainWindow::NotEnoughMoneyOrTakeYourGood(){
-    ui->yourMoney->setText(QString::number(data.price));
+    ui->yourMoney->setText(QString::number(data.balance));
 }
 
 void MainWindow::TakeGood(){

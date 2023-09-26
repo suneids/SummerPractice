@@ -18,7 +18,7 @@ public:
     static const int goodsCount = 12;
     int discountPercent = 10;
     bool isDiscounded = false;
-    int price = 0;
+    int balance = 0;
     Item goodsNames[goodsCount] = {
         {11, "Энергетик", 70},
         {12,"Кириешки", 20},
